@@ -13,82 +13,246 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <img src="https://cs-pricing-page.netlify.app/img/logo.jpeg" />
-        <h1 class="display-4">Checkout Form</h1>
-        <p class="lead">Please fill out below to proceed payment. Thank you!</p>
-
-        <form>
-          <p>Billing address</p>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputEmail4">First name</label>
-              <input type="email" class="form-control" id="inputEmail4" />
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">Last name</label>
-              <input type="password" class="form-control" id="inputPassword4" />
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputAddress">Email (Optional)</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress"
-              placeholder="you@example.com"
-            />
-          </div>
-          <div class="form-group">
-            <label for="inputAddress">Address</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress"
-              placeholder="1234 Main St"
-            />
-          </div>
-          <div class="form-group">
-            <label for="inputAddress2">Address 2</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress2"
-              placeholder="Apartment or suite"
-            />
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-4">
-              <label for="inputState">Country</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="form-group col-md-4">
-              <label for="inputState">State</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="form-group col-md-2">
-              <label for="inputZip">Zip</label>
-              <input type="text" class="form-control" id="inputZip" />
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
+    <div class="jumbotron jumbotron-fluid checkoutpage-margin ">
+      <div class="container ">
+          <div class="checkoutpage-title">
+        <img 
+        src="https://coursereport-s3-production.global.ssl.fastly.net/rich/rich_files/rich_files/5741/s300/logo-cs-01-01.png" />
+        <h1 class="display-4 section-heading sec2color">Checkout Form</h1>
+        <p class="lead section-content">Please fill out below to proceed payment. Thank you!</p>
       </div>
+        <div class="row">
+        <div class="col-md-8 col-sm-12 section-left">
+          <form>
+            <p>Billing address</p>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">First name</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Last name</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="validationCustomUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend"
+                      >@</span
+                    >
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustomUsername"
+                    placeholder="Username"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputAddress">Email (Optional)</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="you@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="1234 Main St"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Apartment or suite"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputState">Country</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Shipping address is the same as my billing address
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Save this information for next time
+                </label>
+              </div>
+            </div>
+            <p>Payment</p>
+            <div class="custom-control custom-radio">
+              <input
+                type="radio"
+                id="customRadio1"
+                name="customRadio"
+                class="custom-control-input"
+              />
+              <label class="custom-control-label" for="customRadio1"
+                >Credit card</label
+              >
+            </div>
+            <div class="custom-control custom-radio">
+              <input
+                type="radio"
+                id="customRadio2"
+                name="customRadio"
+                class="custom-control-input"
+              />
+              <label class="custom-control-label" for="customRadio2"
+                >Debit card</label
+              >
+            </div>
+
+            <div class="custom-control custom-radio">
+              <input
+                type="radio"
+                id="customRadio2"
+                name="customRadio"
+                class="custom-control-input"
+              />
+              <label class="custom-control-label" for="customRadio2"
+                >Paypal</label
+              >
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Name on card</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+                <span>Full name as display on card</span>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Credit card number</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-2">
+                <label for="inputZip">Expiration</label>
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">CVV</label>
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary button form-button">
+              Continue to checkout
+            </button>
+          </form>
+        </div>
+
+        <!-- right section -->
+        <div class="col-md-4 col-sm-12 section-right">
+            
+            <div class="row">
+                <div class="col-sm-8">
+                  Your cart
+                </div>
+                <div class="badge badge-primary badge-pill badge">3</div>
+              </div>
+        <div class="row product">
+          <div class="col-sm-8">
+            Product name
+            <div class="productinfo">Web Design Bootcamp</div>
+          </div>
+          <div class="col-sm-4 productinfo">4.9 M</div>
+        </div>
+
+        <div class="row product">
+          <div class="col-sm-8">
+            Second product
+            <div class="productinfo">React + React Native</div>
+          </div>
+          <div class="col-sm-4 productinfo">14.9 M</div>
+        </div>
+
+        <div class="row product">
+          <div class="col-sm-8">
+            Third item
+            <div class="productinfo">Machine Learning</div>
+          </div>
+          <div class="col-sm-4 productinfo">14.9 M</div>
+        </div>
+
+        <div class="row product promo">
+          <div class="col-sm-8">
+            Promo code
+            <div>EXAMPLECODE</div>
+          </div>
+          <div class="col-sm-4">-7.5 M</div>
+        </div>
+
+        <div class="row product">
+          <div class="col-sm-8">Total (VND)</div>
+          <div class="col-sm-4">27.2 M</div>
+        </div>
+
+
+        <div class="form-row redeem">
+          <div class="form-group col-md-8 remove-margin">
+            <input type="text" class="form-control" placeholder="Promo code" />
+          </div>
+          <button type="submit" class="btn btn-primary form-group col-md-4 remove-margin redeem-button">
+            Redeem
+          </button>
+        </div>
+    
+      </div>
+    </div>
     </div>
   </body>
 </html>

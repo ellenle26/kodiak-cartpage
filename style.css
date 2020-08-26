@@ -54,6 +54,11 @@
   text-align: right;
 }
 
+.card-shadow {
+  box-shadow: 1px 1px 2px rgb(223, 223, 223), 0 0 25px rgb(201, 201, 201),
+    0 0 25px rgb(201, 201, 201), 0 0 5px rgb(197, 197, 197);
+}
+
 .section3 {
   height: 945px;
   background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
@@ -105,4 +110,75 @@
   height: 50px;
   background-color: white;
   animation: blink 0.75s step-end infinite;
+}
+
+/* checkout page css */
+.checkoutpage-margin {
+  margin-bottom: 0px;
+}
+
+.checkoutpage-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.checkoutpage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-left {
+  width: 65%;
+}
+
+.section-right {
+  width: 30%;
+  float: right;
+}
+
+.badge {
+  background-color: gray;
+  width: 25px;
+  height: 18px;
+  text-align: center;
+}
+
+.product {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(209, 209, 209);
+}
+
+.productinfo {
+  color: rgb(124, 124, 124);
+}
+
+.promo {
+  background-color: rgb(228, 232, 238);
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(209, 209, 209);
+  color: rgb(81, 185, 81);
+}
+
+.redeem {
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(209, 209, 209);
+}
+
+.remove-margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.redeem-button {
+  background-color: gray;
+  border: none;
 }
