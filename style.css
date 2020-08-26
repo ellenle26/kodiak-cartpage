@@ -1,0 +1,108 @@
+.button {
+  background-color: #cd3545;
+  border: none;
+}
+
+.button:hover {
+  background-color: #cd4541;
+}
+
+.section-heading {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.section-content {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.section1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.logo {
+  height: 300px;
+  width: 300px;
+}
+
+.section2 {
+  margin-bottom: 0px;
+  padding: 30px;
+  text-align: center;
+}
+
+.sec2color {
+  color: #cd4541;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-detail {
+  text-align: left;
+}
+
+.card-button {
+  text-align: right;
+}
+
+.section3 {
+  height: 945px;
+  background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec3size {
+  font-size: 20px;
+}
+
+.form-section {
+  margin-bottom: 0px;
+}
+
+.formsize {
+  font-size: 25px;
+}
+.form {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.form-button {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+#container {
+  text-align: center;
+  height: 100px;
+}
+
+#text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 42px;
+  font-weight: 600;
+  color: #cd4541;
+  letter-spacing: 2px;
+}
+
+#cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 3px;
+  height: 50px;
+  background-color: white;
+  animation: blink 0.75s step-end infinite;
+}

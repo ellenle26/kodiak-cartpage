@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">CoderSchool</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              &nbsp; Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> &nbsp; Team</a>
+          </li>
+        </ul>
+
+        <div class="my-2 my-sm-0" type="text">EN &nbsp; | &nbsp; VI</div>
+      </div>
+    </nav>
+
+    <!-- section 1 -->
+
+    <div class="jumbotron jumbotron-fluid section1">
+      <div class="container section1">
+        <img
+          src="https://cs-pricing-page.netlify.app/img/logo.jpeg"
+          class="logo"
+        />
+        <h1 class="display-4 section-heading">
+          Courses Starting September 2019
+        </h1>
+        <p class="lead section-content">
+          Designed to help talented individuals meet and learn new technologies
+          fast. Meet 5 times a week for full stack web development training.
+        </p>
+
+        <div id="container">
+          <div id="text"></div>
+          <div id="cursor"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="jumbotron jumbotron-fluid section2">
+      <div class="container">
+        <div>
+          <h1 class="display-4 section-heading sec2color">
+            Curriculum designed to get you hired
+          </h1>
+          <p class="lead section-content">
+            Originally developed in Silicon Valley, our teaching materials bring
+            a wealth of experience in coding education. We focus on real-world
+            projects so you can build a strong portfolio of real apps that
+            simulate the types of challenges you will meet in your professional
+            career.
+          </p>
+        </div>
+        <div class="card-section">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="card" style="width: auto">
+                <img
+                  src="https://cs-pricing-page.netlify.app/img/card1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body card-detail">
+                  <h5 class="card-title">Full Stack Web Development</h5>
+                  <p class="card-text">
+                    HTML/CSS, Javascript, React, Python, Flask
+                  </p>
+                  <div class="card-button">
+                    <a href="/checkoutForm.html" class="btn btn-primary button"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="card" style="width: auto">
+                <img
+                  src="https://cs-pricing-page.netlify.app/img/card2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body card-detail">
+                  <h5 class="card-title">AI/ML Data Science</h5>
+                  <p class="card-text">
+                    Python, SQL, Machine Learning, Deep Learning, NLP, GCP,
+                    End-to-end Machine Learning
+                  </p>
+                  <div class="card-button">
+                    <a href="/checkoutForm.html" class="btn btn-primary button"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+              <div class="card" style="width: auto">
+                <img
+                  src="https://cs-pricing-page.netlify.app/img/card3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body card-detail">
+                  <h5 class="card-title">Mobile App Development</h5>
+                  <p class="card-text">
+                    Make your own application on Android, Ios
+                  </p>
+                  <div class="card-button">
+                    <a href="/" class="btn btn-primary button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 3 -->
+
+    <div class="section3">
+      <h3 class="section-heading">
+        <i class="fas fa-history"></i>
+        History
+      </h3>
+      <div class="section-content sec3size">
+        Over the past 5 years we've trained over 800 developers.
+      </div>
+      <div class="section-content sec3size">
+        Our alumni include engineers currently working at Grab, Facebook,
+        Google, & Netflix
+      </div>
+    </div>
+
+    <!-- FORMS -->
+
+    <div class="jumbotron jumbotron-fluid form-section">
+      <div class="container">
+        <div class="form">
+          <h1 class="display-4 section-heading sec2color">Learn more</h1>
+          <p class="lead section-content formsize">
+            We have guidance counslers available to support you in your learning
+            journey. Enter your information to schedule a consultation
+          </p>
+        </div>
+
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">First Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="John"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Last Name</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="abc@gmail.com"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Phone</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="0123456789"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                I guarantee above information is correct.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary button form-button">
+            Learn more
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- signature -->
+
+    <!-- dont touch below -->
+    <script src="myscripts.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
